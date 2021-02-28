@@ -1,0 +1,94 @@
+body{
+    background-color: cornflowerblue;
+}
+div.profil{
+    float : right;
+    text-align : left;
+    padding : 5px;
+    width : 350px;
+    height : 400px;
+    margin-top : 50px;
+    margin-right : 400px;
+}
+.foto{
+    margin-top : 70px;
+    margin-left : 200px;
+}
+p{
+    font-family :Arial, Helvetica, sans-serif;
+}
+.profil{
+    font-size : 20px;
+}
+.header{
+    text-align : center;
+    font-size : 60px;
+}
+table{
+    margin-top : 20px;
+    margin-left : 190px;
+    border-collapse : collapse;
+    width : 50%;
+}
+.table th{
+    border : solid;
+    border-width : 2px;
+    padding : 10px 10px;
+    background-color :cyan;
+    font-family :Arial, Helvetica, sans-serif;
+}
+.table td{
+    padding : 10px 10px;
+    border : solid;
+    border-width : 2px;
+    background-color : white;
+    text-align : center;
+    font-family :Arial, Helvetica, sans-serif;
+}
+.judul{
+    margin : 0px;
+    margin-left : 190px;
+    font-size: 40px;
+    margin-bottom : 20px;
+    display : inline-block;
+    background-color :darkcyan;
+    padding : 5px 5px;
+    color : white;
+    font-family :Arial, Helvetica, sans-serif;
+}
+hr{
+    margin : 0px;
+    margin-left : 190px;
+    width : 50%;
+    border-color : darkcyan;
+}
+div.content{
+    margin : 0px;
+    margin-left : 190px;
+    width : 50%;
+    height : 200px;
+}
+div.level{
+    margin : 0px;
+    margin-top : 15px;
+    height : 25px; 
+    width : 80%; 
+    background-color : white;
+    border-style : solid;
+    border-width : 2px; 
+}
+div.garis{
+    margin : 0px;
+    height : 100%;  
+    background-color : lime;
+    border-style : hidden; 
+    text-align : center;
+    font-size : 18px;
+    font-family :Arial, Helvetica, sans-serif;
+}
+li{
+    font-family :Arial, Helvetica, sans-serif;
+}
+.kontak {
+    margin-left : 190px;
+}
