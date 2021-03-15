@@ -92,3 +92,16 @@ li{
 .kontak {
     margin-left : 190px;
 }
+.backButton{
+    color : black;
+}
+div.interface1{
+    border : solid;
+    height : 550px;
+    width  : 550px;
+    background-color : whitesmoke;
+    border-width : 2px;
+}
+.interface1 b{
+    font-family : Arial, Helvetica, sans-serif;
+}

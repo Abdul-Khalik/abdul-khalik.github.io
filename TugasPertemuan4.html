@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="Tugas4.js">
+
+
+    </script>
+<body>
+    <button type = "button"><a href="index.html" class = "backButton">Kembali</a></button>
+
+    <center>
+        <div class = "interface1">
+            <h1 style = "size : 40px; font-family: Arial, Helvetica, sans-serif;">
+                Tugas Perhitungan Nilai
+            </h1>
+            <form style="font-family :Arial, Helvetica, sans-serif">
+                Nilai Pertama  <br><br><input type="text" id="firstNum"><br><br>
+                Nilai Kedua    <br><br><input type="text" id="secondNum"><br><br>
+                Nilai Ketiga   <br><br><input type="text" id="thirdNum"><br><br>
+                <br>
+                <input type = "button" onclick = "proses()" value = "Hitung">
+                <input type = "button" onclick = "hapus()" value = "Hapus">
+            </form>
+            
+            <b>Nilai rata-rata : </b>
+            <b id="rataRata"></b>
+            <br>
+            <br>
+            <b>Nilai terendah :</b>
+            <b id="terendah"></b>
+            <br>
+            <br>
+            <b>Nilai tengah :</b>
+            <b id="tengah"></b>
+            <br>
+            <br>
+            <b>Nilai tertinggi :</b>
+            <b id="tertinggi"></b>
+        </div>
+    </center>
+    
+</body>
+</html>
