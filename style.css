@@ -105,3 +105,37 @@ div.interface1{
 .interface1 b{
     font-family : Arial, Helvetica, sans-serif;
 }
+div.interface2{
+    border : solid;
+    height : 360px;
+    width  : 550px;
+    background-color : whitesmoke;
+    border-width : 2px;
+    margin-top : 5px;
+}
+.interface2 h4{
+    font-family : Arial, Helvetica, sans-serif;
+    text-align : right;
+    padding-right : 300px;
+}
+.table2{
+    margin-top : 20px;
+    margin-left : 2px;
+    border-collapse : collapse;
+    width : 50%;
+}
+.table2 th{
+    border : solid;
+    border-width : 2px;
+    padding : 10px 10px;
+    background-color :cyan;
+    font-family :Arial, Helvetica, sans-serif;
+}
+.table2 td{
+    padding : 10px 10px;
+    border : solid;
+    border-width : 2px;
+    background-color : white;
+    text-align : center;
+    font-family :Arial, Helvetica, sans-serif;
+}

@@ -21,6 +21,7 @@ function proses(){
     document.getElementById("tengah").innerHTML = ArrayData[1];
     document.getElementById("tertinggi").innerHTML = ArrayData[2];
 }
+
 function hapus(){
     document.getElementById("firstNum").value = "";
     document.getElementById("secondNum").value = "";
