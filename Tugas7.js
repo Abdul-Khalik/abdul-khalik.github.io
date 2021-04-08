@@ -1,12 +1,10 @@
 $(document).ready(function () {
     fetch();
   
-    function fetch() {
-      let url = "https://covid19.mathdro.id/api";
-  
+    function fetch() {    
       let data = "";
   
-      $.get(url, function (data) {
+      $.get("https://covid19.mathdro.id/api", function (data) {
         
         data = `
             <td>${Number(data.confirmed.value).toLocaleString('en')}</td>
@@ -22,11 +20,9 @@ $(document).ready(function () {
     fetch1();
   
     function fetch1() {
-      let url = "https://covid19.mathdro.id/api/countries/Indonesia";
-  
       let dataindonesia = "";
   
-      $.get(url, function (dataindonesia) {
+      $.get("https://covid19.mathdro.id/api/countries/Indonesia", function (dataindonesia) {
   
         dataindonesia = `
         <td>${Number(dataindonesia.confirmed.value).toLocaleString('en')}</td>
@@ -42,11 +38,9 @@ $(document).ready(function () {
     fetch2();
   
     function fetch2() {
-      let url = "https://covid19.mathdro.id/api/countries/Singapore";
-  
       let datasingapore = "";
   
-      $.get(url, function (datasingapore) {
+      $.get("https://covid19.mathdro.id/api/countries/Singapore", function (datasingapore) {
 
         datasingapore = `
             <td>${datasingapore.confirmed.value}</td>
@@ -62,11 +56,9 @@ $(document).ready(function () {
     fetch3();
   
     function fetch3() {
-      let url = "https://covid19.mathdro.id/api/countries/Malaysia";
-  
       let datamalaysia = "";
   
-      $.get(url, function (datamalaysia) {
+      $.get("https://covid19.mathdro.id/api/countries/Malaysia", function (datamalaysia) {
 
         datamalaysia = `
         <td>${Number(datamalaysia.confirmed.value).toLocaleString('en')}</td>
@@ -81,12 +73,10 @@ $(document).ready(function () {
   
     fetch4();
   
-    function fetch4() {
-      let url = "https://covid19.mathdro.id/api/countries/Burma";
-  
+    function fetch4() {  
       let datamyanmar = "";
   
-      $.get(url, function (datamyanmar) {
+      $.get("https://covid19.mathdro.id/api/countries/Burma", function (datamyanmar) {
   
         datamyanmar = `
         <td>${Number(datamyanmar.confirmed.value).toLocaleString('en')}</td>
@@ -99,4 +89,3 @@ $(document).ready(function () {
       });
     }
   });
-  
